@@ -1,1 +1,1 @@
-# rsschool-cv
+https://SeriousMak.github.io/rsschool-cv/
