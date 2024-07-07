@@ -3,8 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aliaksandr Makarau</title>
 </head>
 <body>
+    <nav class="nav-item">
+        <ul class="nav-list">
+            <li><a class="nav-link" href="#contact">Contacts</a></li>
+            <li><a class="nav-link" href="#about">About me</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#code">Code</a></li>
+            <li><a class="nav-link" href="#experience">Experience</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#languages">Languages</a></li>
+        </ul>
+    </nav> 
+    <main class="info">
+        <div class="title">
+            <h1 class="maintext">Aliaksandr Makarau</h1>
+            <div id="photo">
+                <img src="assets/img/img.png" alt=">Aliaksandr Makarau" class ="round">
+            </div>
+        </div>
+        <div id="contact">
+            <h1 class="h1">Contacts</h1>
+            <p class ="text">sashamkr@mail.ru</p>
+        </p>
+        </div>
+        <div id="about">
+            <h1 class="h1">About Me</h1>
+            <p class ="text">I graduated Minsk State Higher Radio Technical College then recieved higher education at BSUIR, and also have a master's degree in occupational psychology, engineering psychology and ergonomics. My hobbies are history and cars. I have been working as a system administrator for a long time and decided to try myself as a developer. I want to get new knowledge and skills in this course. 
+            </p>
+        </div>
+        <div id="skills">
+            <h1 class="h1">Skills</h1>
+            <ul>
+                <li>
+                    <p class="text">Powershell, Bash/Shell</p>
+                </li>
+                <li>
+                    <p class="text">OS Linux (Debian,OpenSUSE,Ubuntu); OS Windows</p>
+                </li>
+                <li>
+                    <p class="text">administration AD, Vbox, Vmware ESXI</p>
+                </li>
+            </ul>
+        </div>
+        <div id="code">
+            <h1 class="h1">Code example</h1>
+            <pre>
+                <code class="code">
+                    #!/bin/bash 
+                    var1=$(( 1+1 ))
+                    echo $var1
+                    var2=$(( $var1 * 12))
+                    echo $var2 
+                </code>
+            </pre>
+        </div>
+        <div id="experience">
+            <h1 class="h1">Experience</h1>
+            <ul>
+                <li>
+                    <p class="text">Jul 2013 - Present: System administrator </p>
+                </li>
+            </ul>
+        </div>
+        <div id="education">
+            <h1 class="h1">Education</h1>
+            <ul>
+                <li>
+                    <p class="text">2010-2014: Specialized electronic computing systems, MGVRK</p>
+                </li>
+                <li>
+                    <p class="text">2014-2018 Computing machines, systems and networks, BSUIR</p>
+                </li>
+                <li>
+                    <p class="text">2018-2020 Occupational psychology, engineering psychology, ergonomics, BSUIR</p>
+                </li>
+            </ul>
+        </div>
+        <div id="languages">
+            <h1 class="h1">Languages</h1>
+            <ul>
+                <li>
+                    <p class="text">English (A1)</p>
+                </li>
+                <li>
+                    <p class="text">Russian (native)</p>
+                </li>
+                <li>
+                    <p class="text">Belarusian (native)</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="footerLinks">
+            <ul>
+                <li> <a href="https://rs.school/courses/javascript-ru" >
+                    <img src="assets/img/rs-school-logo.svg" alt="rsschool" class="rsschool">
+                </a>
+            </li>
+                  <li><a href="https://github.com/SeriousMak">GitHub</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2024</p>
+        </div>
+    </footer>
 </body>
 </html>
