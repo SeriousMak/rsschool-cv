@@ -75,3 +75,42 @@ body {
     font-size: 25px;
     align-self: left;
   }
+footer {
+	background:#2d4e95;
+    bottom: 0;
+    margin: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: arial;
+}
+.footerLinks {
+   text-align: center;
+}
+.footerLinks ul {
+	padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.footerLinks li {
+	display:list-item;
+}
+.footerLinks a {
+	color: #d9d9d9;
+	text-decoration: none;
+	font-size: 13px;
+}
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+	margin: 10px 10px;
+	color: #e5dcdc;
+	font-size: 11px;
+}
+.rsschool
+{
+    width:20%;
+    height: 20%;
+}
