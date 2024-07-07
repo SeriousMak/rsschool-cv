@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #f9f9fa;
+}
+.nav-item {
+    background-color: #2d4e95;
+    color: #e5dcdc;
+    padding: 8px 12px 10px 12px;
+    text-decoration: none;
+    text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+    margin: 0px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #d5e3da;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    padding: 8px 12px 10px 12px;
+    align-items: left;
+    list-style-type: none;  
+    flex-direction: row;
+    gap: 30px; 
+}
+.h1 {
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+    margin: 0px;
+}
+.text{
+    text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+    margin: 07px;
+}
+.maintext {
+	text-align:center;
+	font-size:50px;
+	letter-spacing:5;
+    margin: 07px;
+}
+.info{
+    max-width: 1000px;
+    min-width: 100px;
+    align-self: center;
+    margin: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.round {
+    width: 340px;
+    height: 300px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.code {
+    font-family: Consolas,"courier new";
+    color: rgb(190, 17, 20);
+    padding: 2px;
+    font-size: 25px;
+    align-self: left;
+  }
